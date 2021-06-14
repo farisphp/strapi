@@ -2,12 +2,18 @@
   "collectionName": "components_decoration_heroes",
   "info": {
     "name": "Hero",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
+      "required": true
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "white",
       "required": true
     }
   }
