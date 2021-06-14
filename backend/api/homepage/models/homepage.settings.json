@@ -41,6 +41,17 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "videoFromExternalSrc": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "videoThumbnailUrl": {
+      "type": "string"
     }
   }
 }
